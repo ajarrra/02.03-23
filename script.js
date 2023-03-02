@@ -20,3 +20,6 @@ for (i = 0; i < exampleList2.length; i++) {
     ul1.append(list1);
     list1.textContent = exampleList2[i].name + " - " + exampleList2[i].age;
 }
+
+
+//ФОРМЫ
