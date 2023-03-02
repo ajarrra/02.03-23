@@ -23,3 +23,17 @@ for (i = 0; i < exampleList2.length; i++) {
 
 
 //ФОРМЫ
+const h1 = document.querySelector("h1");
+document.querySelector("#display-text").addEventListener("input",
+    function () {
+        h1.textContent = this.value;
+    });
+
+
+document.querySelector("#font-size").addEventListener("input",
+ function() {
+    h1.style.fontSize = "px"
+    h1.textContent = this.value + "px";
+    
+
+});
