@@ -32,8 +32,11 @@ document.querySelector("#display-text").addEventListener("input",
 
 document.querySelector("#font-size").addEventListener("input",
  function() {
-    h1.style.fontSize = "px"
-    h1.textContent = this.value + "px";
-    
-
+    h1.style.fontSize = this.value + "px";
 });
+
+document.querySelector("#text-color").addEventListener("input",
+function(){
+    h1.style.color = this.value
+}
+)
